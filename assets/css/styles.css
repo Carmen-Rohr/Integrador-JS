@@ -1,0 +1,183 @@
+body{
+    width: 100%;   
+    font-size: 16px;        
+    min-height: 100vh;    
+}
+
+/* Section menu */
+
+nav.navbar ul.nav li {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#bs-as{
+    display: flex;
+    margin-left: 3em;
+}
+
+#navbarNav{
+    margin-right: 5em;
+}
+
+nav.navbar {
+    background-color: #47515A !important;
+    font-size: 1.25 em;    
+}
+
+#titulo{
+    color: white !important;    
+    padding-top: 0.75em !important;
+}
+
+.active{
+    color: white !important;
+}
+
+.nav-link-grey {
+    color:rgb(179, 175, 175) !important;
+}
+
+#nav-link-ticket {
+    color:#04C404 !important;
+}
+
+
+/* section categorias */
+#categorias {
+width: 65%;
+margin: 0 auto;
+margin-top: 1em;
+margin-bottom: 2em;
+}
+
+.titulo-1{
+    font-size: 2em;    
+    padding: 1em;    
+    font-weight: bold;  
+    text-align: center;     
+}
+
+.titulo-2{    
+    font-size: 1.5em;    
+    padding: 0.15em;
+    text-align: center;     
+}
+
+.titulo-3{
+    font-size: 1.7em;    
+    padding: 0.15em;    
+    font-weight: bold;  
+    text-align: center;  
+}
+
+.titulo-4{
+    font-size: 1.25em;    
+    padding: 0.15em;
+    text-align: center;  
+    color:gray;   
+}
+
+#tarjeta-1 {
+    border-color: #3498DB;
+    border-radius: 0%;
+}
+
+#tarjeta-2 {
+    border-color: #45B39D;
+    border-radius: 0%;
+}
+
+#tarjeta-3{
+    border-color: #F5B041;
+    border-radius: 0%;
+}
+
+/*section formulario */
+#formulario{
+   width:79%;
+   position:absolute;
+   left:8.5em;      
+   justify-content: center;   
+   text-align: center;  
+   line-height:0.5;
+}
+
+#form-centrado{
+  width: 100%;
+  padding: 0.5em;  
+  justify-content: center;  
+  margin: 0.5rem; 
+}
+#form-titulo1{
+    font-size: 0.8em;         
+}    
+
+#form-titulo2{
+    font-size: 2em;   
+}
+
+@keyframes animacion-titulo{
+    from{width: 0;}
+    to{width: 14em;}
+}
+
+form label{
+	width:2em;
+	margin-bottom: 0.5em;
+	padding-left: 0%;
+}
+
+button{
+    background-color:#AADA13 !important;
+    border-color: #A8DA0D !important;
+    width:100%; 
+    margin-top: 0.5em;
+}
+
+button:hover {
+    background: black !important;
+    color: #A8DA0D !important;
+}
+
+/*section pie-pagina*/
+#container-footer{
+    background-color: #06475B;
+    background: linear-gradient(to right, #013A4C, #035E7B);
+    padding: 1em;       
+    margin-top: 28em;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}   
+
+#container-footer a{
+    color:white;    
+    text-decoration: none;
+}    
+
+/*Media queries */
+@media (max-width: 576px) {
+    #container-footer{       
+        padding: 1em;       
+        margin-top: 40em;       
+    }   
+  
+    #formulario{
+        width:79%;      
+        left:3em;              
+     }    
+}
+
+@media (max-width: 768px) {
+    #container-footer{      
+        margin-top: 40em;       
+    }   
+  
+    #formulario{
+        width:79%;     
+        left:3em;             
+     }    
+}
+
+
+  
