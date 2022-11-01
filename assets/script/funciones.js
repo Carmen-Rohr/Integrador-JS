@@ -76,8 +76,7 @@ function calcular() {
 }
 
 //Limpia los campos del formulario
-function limpiar(){
-    formulario.reset();
+function limpiar(){  
     document.getElementById("total-a-pagar").innerHTML = "Total a Pagar: $";
 }
 

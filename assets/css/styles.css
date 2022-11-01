@@ -161,6 +161,10 @@ button:hover {
         padding: 1em;       
         margin-top: 40em;       
     }   
+
+    #form-titulo2{
+        font-size: 1em;   
+    }
   
     #formulario{
         width:79%;      
