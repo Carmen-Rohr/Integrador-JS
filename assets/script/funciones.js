@@ -34,7 +34,7 @@ function calcular() {
                     alert('Para continuar, ingrese la cantidad');
                     cantidad.focus()
                 }  else 
-                    if (cant==0) {
+                    if (cant<=0) {
                         alert('La cantidad ingresada debe ser mayor que 0. Ingresela nuevamente');
                         cantidad.focus()
                  } else {
